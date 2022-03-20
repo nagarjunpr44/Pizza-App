@@ -1,0 +1,35 @@
+.footer-container{
+    height: calc(100vh- 100px);
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    color: white;
+}
+.f-left{
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.f-img{
+    object-fit: cover;
+    width: 80%;
+}
+.f-card{
+    flex: 1;
+    padding: 0px 20px;
+    
+}
+.f-items-title{
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+}
+.items{
+    color: bisque;
+}
+.f-items-titlee{
+    font-size: 35px;
+    color: rgb(134, 251, 0);
+    width: 120%;
+    text-align: center;
+    margin-left: 50px;
+}
